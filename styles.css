@@ -1,0 +1,9 @@
+* {
+  box-sizing: border-box;
+  background-color: lightgray;
+}
+body {
+  width: 100%;
+  margin: 0;
+  
+}
