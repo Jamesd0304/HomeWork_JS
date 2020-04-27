@@ -1,4 +1,4 @@
-console.log("Hello World!");
+//console.log("Hello World!");
 let intro = document.getElementById('intro');
 intro.innerHTML = "My New Page Title";
 intro.style.color = "lightblue";
@@ -6,14 +6,13 @@ intro.style.backgroundColor = "gray";
 intro.style.textAlign = "center";
 
 
-let para = document.getElementsByClassName("para1");
+let p2 = document.getElementsByClassName("para1");
 
-console.log(para);
-
-let getClass = function(p) {
+function getClass (p) {
   let l = p.length;
   for(i = 0; i < l; i++) {
-    return p[2];
+    console.log(p[i].innerText);
   }
+  return console.log(l);
 }
-getClass(para);
+getClass(p2);
