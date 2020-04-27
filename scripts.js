@@ -10,9 +10,10 @@ let para = document.getElementsByClassName("para1");
 
 console.log(para);
 
-let getClass = function(para) {
-  for(i = 0; i <= para.length - 1; i++) {
-    return para[2];
+let getClass = function(p) {
+  let l = p.length;
+  for(i = 0; i < l; i++) {
+    return p[2];
   }
 }
 getClass(para);
